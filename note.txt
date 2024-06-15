@@ -1,0 +1,79 @@
+1. server {
+    1. npm init
+
+    2. server.js
+
+    3. models => chatModel.js
+
+    3. models => userModel.js
+
+    3. models => messageModel.js
+
+    4. database_connection => config =>  dbConfig.js
+
+   5. routes =>  userRoutes.js
+
+   6. controllers => userControllers.js
+
+   7. npm install express-async-handler
+
+npm i socket.io
+   
+
+
+
+
+}
+
+
+2. client{
+    1. setup ui using chakra -ui, react 
+
+    2. npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+    3. npm install react-router-dom
+
+    4. npm install -D tailwindcss postcss autoprefixer npx tailwindcss init -p
+
+    5. npm i axios
+
+    6. pages => chatPage.jsx
+
+    7. pages => homePage.jsx
+
+    8. router => routes.jsx
+
+    9. pages => homePage.jsx => create login - signup page using chakra ui
+
+    10. src => context => chatProvider.jsx {
+        here we will use createContext using name chatContext
+
+        now we will use ChatProvider and provide the value of it to all child components
+
+        in index.jsx we will use chatProvider to wrap our app 
+
+        this is not working make different file for create context
+    }
+
+    11. components => miscellaneous => sideDrawer.jsx
+
+    12. components =>  MyChats.jsx
+
+    13. components => ChatBox.jsx
+
+    14. npm i @chakra-ui/icons
+
+    15. npm i react-notification-badge
+
+    16. components => miscellaneous => profileModal.jsx
+
+    17. components => chatLoading.jsx
+
+    18. components => userAvatar => userlistItem.jsx
+
+
+npm install --save react-scrollable-feed
+
+
+
+}
