@@ -10,7 +10,6 @@ export const router = createBrowserRouter(
     <Route path="/">
       <Route path="" element={<HomePage />} />
       <Route path="chats" element={<ChatPage />} />
-
       <Route path="*" element={<Page404 />} />
     </Route>
   )
